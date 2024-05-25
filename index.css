@@ -1,1 +1,547 @@
-hej
+position: relative;
+width: 1512px;
+height: 4758px;
+
+background: #FFFCFE;
+
+
+/* —Pngtree—transparent soap bubbles vector colorful_5204648 8 */
+
+position: absolute;
+width: 1200px;
+height: 1200px;
+left: 1727px;
+top: 2303px;
+
+background: url(—Pngtree—transparent soap bubbles vector colorful_5204648.png);
+opacity: 0.7;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 146 */
+
+position: absolute;
+width: 1512px;
+height: 217px;
+left: 2px;
+top: 1562px;
+
+background: #FDF0F6;
+
+
+/* Rectangle 144 */
+
+position: absolute;
+width: 1376px;
+height: 860px;
+left: calc(50% - 1376px/2 - 11px);
+top: 2926px;
+
+background: #FDBDDB;
+opacity: 0.5;
+
+
+/* —Pngtree—transparent soap bubbles vector colorful_5204648 7 */
+
+position: absolute;
+width: 1200px;
+height: 1200px;
+left: -382px;
+top: 362px;
+
+background: url(—Pngtree—transparent soap bubbles vector colorful_5204648.png);
+opacity: 0.7;
+
+
+/* —Pngtree—transparent soap bubbles vector colorful_5204648 2 */
+
+position: absolute;
+width: 1200px;
+height: 1200px;
+left: 401px;
+top: 4088px;
+
+background: url(—Pngtree—transparent soap bubbles vector colorful_5204648.png);
+
+
+/* —Pngtree—transparent soap bubbles vector colorful_5204648 3 */
+
+position: absolute;
+width: 1200px;
+height: 1200px;
+left: 401px;
+top: 4088px;
+
+background: url(—Pngtree—transparent soap bubbles vector colorful_5204648.png);
+
+
+/* Besøg mig: */
+
+position: absolute;
+width: 115px;
+height: 37px;
+left: 179px;
+top: 4362px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Kontakt mig: */
+
+position: absolute;
+width: 132px;
+height: 37px;
+left: 526px;
+top: 4362px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Følg mig: */
+
+position: absolute;
+width: 95px;
+height: 37px;
+left: 1077px;
+top: 4362px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Gartnerbyen 91, 4.2 5200 Odense V Fyn, Denmark */
+
+position: absolute;
+width: 187px;
+height: 96px;
+left: 143px;
+top: 4430px;
+
+font-family: 'Antonio';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+
+/* E-mail; oliwiakeyha2010@hotmail.com Tlf nr; +45 93 86 54 01 */
+
+position: absolute;
+width: 300px;
+height: 192px;
+left: 456px;
+top: 4418px;
+
+font-family: 'Antonio';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 32px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+
+/* linkedin 1 */
+
+position: absolute;
+width: 96px;
+height: 96px;
+left: 882px;
+top: 4435px;
+
+background: url(linkedin.png);
+
+
+/* youtube 1 */
+
+position: absolute;
+width: 96px;
+height: 96px;
+left: 1012px;
+top: 4435px;
+
+background: url(youtube.png);
+
+
+/* tiktok 1 */
+
+position: absolute;
+width: 96px;
+height: 97px;
+left: 1142px;
+top: 4434px;
+
+background: url(tiktok.png);
+
+
+/* instagram 1 */
+
+position: absolute;
+width: 96px;
+height: 97px;
+left: 1272px;
+top: 4434px;
+
+background: url(instagram.png);
+
+
+/* Line 4 */
+
+position: absolute;
+width: 1512px;
+height: 0px;
+left: 0px;
+top: 4176px;
+
+border: 5px solid #D092BA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Om mig */
+
+position: absolute;
+width: 309px;
+height: 147px;
+left: calc(50% - 309px/2 + 0.5px);
+top: 1602px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 147px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FDBDDB;
+
+
+
+/* Oliwia Keyha */
+
+position: absolute;
+width: 1263px;
+height: 319px;
+left: calc(50% - 1263px/2 + 0.5px);
+top: 234px;
+
+font-family: 'Antonio';
+font-style: normal;
+font-weight: 400;
+font-size: 250px;
+line-height: 323px;
+letter-spacing: 0.03em;
+
+color: #222222;
+
+border: 1px solid #222222;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 145 */
+
+position: absolute;
+width: 1512px;
+height: 126px;
+left: 0px;
+top: 0px;
+
+background: #FDF0F6;
+
+
+/* KK 1 */
+
+position: absolute;
+width: 75px;
+height: 209px;
+left: 34px;
+top: -41px;
+
+background: url(KK.png);
+
+
+/* Portefølje */
+
+position: absolute;
+width: 194px;
+height: 73px;
+left: 1037px;
+top: 27px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 73px;
+
+color: #000000;
+
+
+
+/* Kontakt */
+
+position: absolute;
+width: 153px;
+height: 73px;
+left: 1302px;
+top: 27px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 73px;
+
+color: #000000;
+
+
+
+/* Forside */
+
+position: absolute;
+width: 148px;
+height: 73px;
+left: 818px;
+top: 27px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 73px;
+
+color: #FDBDDB;
+
+
+
+/* om mig billede 1 */
+
+position: absolute;
+width: 1376px;
+height: 1049px;
+left: 57px;
+top: 1854px;
+
+background: url(om mig billede.png);
+
+
+/* Om mig */
+
+position: absolute;
+width: 309px;
+height: 147px;
+left: calc(50% - 309px/2 + 2.5px);
+top: 3906px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 147px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FDBDDB;
+
+
+
+/* Rectangle 147 */
+
+position: absolute;
+width: 1520px;
+height: 217px;
+left: -8px;
+top: 3866px;
+
+background: #FDF0F6;
+
+
+/* Arrow 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 1127px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Arrow 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 1089px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Arrow 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 1051px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 438px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 400px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Kontakt mig */
+
+position: absolute;
+width: 500px;
+height: 147px;
+left: calc(50% - 500px/2 - 11px);
+top: 3901px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 147px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #FDBDDB;
+
+
+
+/* Line 6 */
+
+position: absolute;
+width: 1512px;
+height: 0px;
+left: 0px;
+top: 4088px;
+
+border: 5px solid #222222;
+
+
+/* Line 7 */
+
+position: absolute;
+width: 1522px;
+height: 0px;
+left: -8px;
+top: 3865.98px;
+
+border: 5px solid #222222;
+transform: rotate(0deg);
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 88.01px;
+height: 0px;
+left: 362px;
+top: 3933px;
+
+border: 2px solid #000000;
+transform: rotate(89.35deg);
+
+
+/* Rectangle 152 */
+
+position: absolute;
+width: 1398px;
+height: 714px;
+left: calc(50% - 1398px/2);
+top: 687px;
+
+background: #FDBDDB;
+opacity: 0.5;
+
+
+/* Hej! Mit navn er Oliwia Aleksandra Keyha, og jeg er 24 år gammel. Jeg er i gang med multimediedesigner-uddannelsen, hvor jeg får mulighed for at udforske mine interesser inden for design, grafisk design, fotografering, mode og musik. Jeg er en kreativ sjæl, der elsker at udfordre mig selv og konstant prøve nye ting. For mig er det visuelle en kraftfuld fortæller, og jeg stræber efter at formidle historier gennem mine designs. Min uddannelse giver mig en solid grundviden, som jeg ser frem til at udbygge, så jeg kan berige min fremtidige karriere. Mit ultimative mål er at blive Creative Director for et modebranchen eller musik- og koncertbranchen. Jeg ønsker at kombinere min passion for kreativitet med mit designarbejde, og jeg ser frem til at fortsætte min rejse i denne spændende branche. Med min baggrund og mine ambitioner er jeg klar til at skabe unikke og inspirerende visuelle oplevelser. */
+
+position: absolute;
+width: 641px;
+height: 738px;
+left: 129px;
+top: 3003px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 37px;
+
+color: #222222;
