@@ -36,3 +36,73 @@ ul {
 li {
     display: inline;
 }
+h1 {
+    display: display;
+    color: #FDF0F6;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+h2 {
+    display: display;
+    color: #FDF0F6;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+h3 {
+    display: display;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+h4 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+h5 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Antonio', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+h6 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+h7 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+h8 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Antonio', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+h9 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+h10 {
+    display: table-footer-group;
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Antonio', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
