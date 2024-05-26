@@ -1,0 +1,24 @@
+body {
+    background-color: #FFFCFE;
+    margin: 0;
+}
+
+nav {
+    background-color: #FDF0F6;
+    padding: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 70px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 30px;
+}
+li {
+    display: inline;
+}
