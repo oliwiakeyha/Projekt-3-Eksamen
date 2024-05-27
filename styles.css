@@ -1,5 +1,5 @@
 html { 
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #FEFCFF;
@@ -16,6 +16,9 @@ nav {
 }
 .logo{
     height: 70px;
+}
+.photo{
+    height: 250px;
 }
 ul {
     margin: 0;
@@ -38,17 +41,18 @@ li {
 }
 h1 {
     display: display;
-    color: #FAF0FD;
+    color: #222222;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
+    
 }
 h2 {
     display: display;
-    color: #FAF0FD;
+    color: #222222;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
 }
 h3 {
     display: display;
@@ -61,8 +65,8 @@ h4 {
     display: table-footer-group;
     color: #222222;
     text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
+    font-family: 'Antonio', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 h5 {
     display: table-footer-group;
@@ -75,8 +79,8 @@ h6 {
     display: table-footer-group;
     color: #222222;
     text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
+    font-family: 'Antonio', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 h7 {
     display: table-footer-group;
