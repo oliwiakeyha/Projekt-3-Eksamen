@@ -2,13 +2,13 @@ html {
    scroll-behavior: smooth;
 }
 body {
-    background-color: #FFFCFE;
+    background-color: #FEFCFF;
     margin: 0;
     background-image: url(images/bobler.png), url(images/bobler2.png);
 }
 
 nav {
-    background-color: #FDF0F6;
+    background-color: #FAF0FD;
     padding: 26px;
     display: flex;
     justify-content: space-between;
@@ -31,21 +31,21 @@ ul {
     font-size: 30px;
 }
 .menu-item:hover { 
-    color: #FDBDDB;
+    color: #E5BDFD;
 }
 li {
     display: inline;
 }
 h1 {
     display: display;
-    color: #FDF0F6;
+    color: #FAF0FD;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
 h2 {
     display: display;
-    color: #FDF0F6;
+    color: #FAF0FD;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
