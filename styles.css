@@ -5,9 +5,10 @@ body {
     background-color: #FEFCFF;
     margin: 0;
     font-family: 'Antonio', sans-serif;
+    background-image: url(images/bobler.png), url(images/bobler2.png);
     background-position: left top 20px, right top 20px;
-    background-repeat: repeat-y;
-    background-size: 25%; 
+    background-repeat: repeat-y; align-items: normal;
+    background-size: 35%; 
 }
 .tubelight-text {
     display: flex;
@@ -18,7 +19,7 @@ body {
 
 .tubelight-text h2 {
     position: relative;
-    font-size: 6em;
+    font-size: 14em;
     letter-spacing: 15px;
     color: #222;
     text-transform: uppercase;
