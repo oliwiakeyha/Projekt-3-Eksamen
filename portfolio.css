@@ -90,7 +90,7 @@ p {
     flex-direction: column;
     gap: 20px;
     margin: 50px auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .image-container img {
