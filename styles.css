@@ -149,7 +149,7 @@ body {
     background-image: url(images/bobler.png), url(images/bobler2.png);
     background-position: left top 20px, right top 20px;
     background-repeat: repeat-y;
-    background-size: 25%; 
+    background-size: 35%; 
 }
 
 header {
