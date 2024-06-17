@@ -1,6 +1,7 @@
 html { 
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #FEFCFF;
     margin: 0;
@@ -10,11 +11,12 @@ body {
     background-repeat: repeat-y; align-items: normal;
     background-size: 35%; 
 }
+
 .tubelight-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 65vh;
+    min-height: 200px;
 }
 
 .tubelight-text h2 {
@@ -25,8 +27,8 @@ body {
     width: 100%;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #2222);
-    line-height: 0.70em;
     outline: none;
+    line-height: 35px;
     animation: animate 5s linear infinite;
 }
 
@@ -52,24 +54,29 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     height: 70px;
 }
+
 ul {
     margin: 0;
     padding: 0;
     display: flex; 
     gap: 30px;
 }
+
 .menu-item {
     color: #222222;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
+
 .menu-item:hover { 
     color: #E5BDFD;
 }
+
 li {
     display: inline;
 }
@@ -100,12 +107,7 @@ p {
     font-family: 'Antonio', sans-serif;
     color: #222222;
 }
-.logoo {
-    display: block;
-    margin: 50px auto;
-    max-width: 80%;
-    height: auto;
-}
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -137,19 +139,10 @@ p {
 }
 .footer-section p {
     font-size: 16px;
-    margin: 5px 0;
+    margin: 15px;
 }
 
-/* Portølje css */
-body {
-    margin: 0;
-    font-family: 'Antonio', sans-serif;
-    background-color: #FEFCFF;
-    background-image: url(images/bobler.png), url(images/bobler2.png);
-    background-position: left top 20px, right top 20px;
-    background-repeat: repeat-y;
-    background-size: 35%; 
-}
+/* Portefølje css */
 
 header {
     background-color: #FAF0FD;
@@ -165,66 +158,6 @@ nav {
 
 .logo {
     height: 70px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    gap: 30px;
-}
-
-.menu-item {
-    color: #222222;
-    text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-}
-
-.menu-item:hover { 
-    color: #E5BDFD;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #222222;
-    text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-p {
-    font-family: 'Antonio', sans-serif;
-    color: #222222;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .box1{
@@ -248,25 +181,3 @@ p {
     height: auto;
 }
 
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    background-color: #FAF0FD;
-    padding: 20px;
-}
-
-.footer-section {
-    flex: 1;
-    text-align: center;
-    padding: 10px;
-}
-
-.footer-section h2 {
-    font-size: 20px;
-}
-
-.footer-section p {
-    font-size: 16px;
-    margin: 5px 0;
-}
