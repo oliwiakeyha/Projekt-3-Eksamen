@@ -18,8 +18,7 @@ body {
 }
 
 .tubelight-text h2 {
-    position: relative;
-    font-size: 14em;
+    font-size: 14px;
     letter-spacing: 15px;
     color: #222;
     text-transform: uppercase;
@@ -66,7 +65,7 @@ ul {
     color: #222222;
     text-decoration: none;
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 .menu-item:hover { 
     color: #E5BDFD;
@@ -228,9 +227,8 @@ p {
     height: 100vh;
 }
 
-.streg { 
-    display: block;
-
+.box1{
+    text-align: center;
 }
 
 /* hvordan min images container ser ud  */
