@@ -119,10 +119,25 @@ p {
     width: 47%;
     height: auto;
 }
-.ommigkasse {
-    width: 51%;
-    height: auto;
-}
+
+.paragraphommig {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: lighter;
+        text-align: center;
+        color: #000;
+    }
+
+.box3 {
+    background-color: #E5BDFD;
+    width: 100%;
+    margin:0;
+    padding: 20px 0px 80px 0px;
+    position: relative;
+    }
+
+
 .footer-container {
     display: flex;
     justify-content: center;
@@ -162,6 +177,9 @@ nav {
 
 .box1{
     text-align: center;
+    background-color: #E5BDFD;
+    width: 100%;
+    margin:0;
 }
 
 /* hvordan min images container ser ud  */
