@@ -185,6 +185,16 @@ p {
 
 /* Portefølje css */
 
+body {
+    margin: 0;
+    font-family: 'Antonio', sans-serif;
+    background-color: #FEFCFF;
+    background-image: url(images/bobler.png), url(images/bobler2.png);
+    background-position: left top 20px, right top 20px;
+    background-repeat: repeat-y;
+    background-size: 35%; 
+}
+
 /* styling til header */
 header {
     background-color: #FAF0FD; /* baggrundsfarve */
@@ -202,6 +212,7 @@ nav {
 .logo {
     height: 70px; /* højde på logo */
 }
+
 
 /* styling til box1 overskrift om mig */
 .box1{ 
@@ -225,6 +236,28 @@ nav {
 /* styling af images i image container */
 .image-container img {
     max-width: 100%;/* maksimal bredde */
-    height: auto; /* automatisk højde for at bevare proportioner */
+    height:auto /* automatisk højde for at bevare proportioner */
 }
 
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #FAF0FD;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin: 5px 0;
+}
