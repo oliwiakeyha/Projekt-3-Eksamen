@@ -1,92 +1,105 @@
+/* Gør scrolling jævn */
 html { 
     scroll-behavior: smooth;
 }
 
+/* styling for body */
 body {
-    background-color: #FEFCFF;
-    margin: 0;
-    font-family: 'Antonio', sans-serif;
-    background-image: url(images/bobler.png), url(images/bobler2.png);
-    background-position: left top 20px, right top 20px;
-    background-repeat: repeat-y; align-items: normal;
-    background-size: 35%; 
+    background-color: #FEFCFF; /* baggrundsfarve */
+    margin: 0; /* fjernet margin for at fjerne ekstra plads omkring indholdet*/
+    font-family: 'Antonio', sans-serif; /* standard font på siden */
+    background-image: url(images/bobler.png), url(images/bobler2.png); /* baggrundsbilleder */
+    background-position: left top 20px, right top 20px; /* position af baggrundsbilleder */
+    background-repeat: repeat-y; align-items: normal; /* gentag baggrundsbilleder lodret */
+    background-size: 35%; /* størrelse på baggrundsbilleder */
 }
 
+/* styling af tubelight-text div */
 .tubelight-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
+    display: flex; /* flexbox layout */
+    justify-content: center; /* centrerer indhold */
+    align-items: center; /* centrer indhold */
+    min-height: 200px; /* minimum højde */
 }
 
+/* styling til overskriften i tubelight-text */
 .tubelight-text h2 {
-    font-size: 14px;
-    letter-spacing: 15px;
-    color: #222;
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #2222);
-    outline: none;
-    line-height: 35px;
-    animation: animate 5s linear infinite;
+    font-size: 14px; /* skriftstørrelse */
+    letter-spacing: 15px; /* mellemrum mellem bogstaverne */
+    color: #222; /* skriftfarve */
+    text-transform: uppercase; /* transformere teksten til store bogstaver */
+    width: 100%; /* bredde */
+    text-align: center; /* centrer teksten */
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #2222); /* reflektions effekt */
+    outline: none; /* fjernet outline */
+    line-height: 35px; /* linje højde */
+    animation: animate 5s linear infinite; /* animations element ved hjælp af keyframes der varierer i 5 sekunder, lineær timing og gentages uendeligt*/
 }
 
+/* keyframes for animationen tubelight-text */
 @keyframes animate {
-    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
-        color: #222;
-        text-shadow: none;
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% { /* stylingen af elementet ændres på forskellige tidspunkter (farve og tekstskygge) */
+        color: #222; /* skriftfarve */
+        text-shadow: none; /* ingen skygge */
     }
-    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
-        color: #222;
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% { /* stylingen af elementet ændres på forskellige tidspunkter (farve og tekstskygge) */
+        color: #222; /* skrift farve */
         text-shadow: 0 0 10px #E5BDFD,
                      0 0 20px #E5BDFD,
                      0 0 40px #E5BDFD,
                      0 0 80px #E5BDFD,
-                     0 0 160px #E5BDFD;
+                     0 0 160px #E5BDFD; /* skyggeeffekt */
     }
 }
 
+/* styling til navigation */
 nav {
-    background-color: #FAF0FD;
-    padding: 26px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #FAF0FD; /* baggrundsfarve */
+    padding: 26px; /* indvendig afstand hele vejen rundt om elementet/luft mellem kant og indhold */
+    display: flex; /* flexbox layout */
+    justify-content: space-between; /* placering af elementer med plads imellem */
+    align-items: center; /* centrer bill */
 }
 
+/* styling til logo */
 .logo {
-    height: 70px;
+    height: 70px; /* højde på logo */
 }
 
+/* styling af menuliste */
 ul {
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    gap: 30px;
+    margin: 0; /* fjernet margin */
+    padding: 0; /* fjernet padding */
+    display: flex; /* flexbox layout */
+    gap: 30px; /* mellemrum mellem liste elementer */
 }
 
+/* styling af menutimes */
 .menu-item {
-    color: #222222;
-    text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    color: #222222; /* skriftfarve */
+    text-decoration: none; /* ingen understregning */
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* tilhører font familie sans serif*/
+    font-size: 20px; /* skriftstørrelse */
 }
 
+/* hover effekt for menutime */
 .menu-item:hover { 
-    color: #E5BDFD;
+    color: #E5BDFD; /* ændrer farve ved hover */
 }
 
+/* styling til liste elementer */
 li {
-    display: inline;
+    display: inline; /* liste elementer vises på linje */
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #222222;
-    text-decoration: none;
-    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+/* styling til forskellige overskrifter*/
+h1, h2, h3, h4, h5, h6 { /* overskrifter på forskellige niveauer hvor h1 er vigtigst og h2 næstvigtigst */
+    color: #222222; /* skriftfarve */
+    text-decoration: none; /* ingen understregning */
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* tilhører font familie sans serif */
 }
 h1 {
-    font-size: 35px;
+    font-size: 35px; /* skriftstørrelse for h1 */
 }
 h2 {
     font-size: 30px;
@@ -103,99 +116,115 @@ h5 {
 h6 {
     font-size: 16px;
 }
+
+/* styling af paragraph afsnit */
 p {
-    font-family: 'Antonio', sans-serif;
-    color: #222222;
+    font-family: 'Antonio', sans-serif; /* font type */
+    color: #222222; /* skriftfarve */
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 50px 0;
+/* styling til billedecontainer */
+.image-container { 
+    display: flex; /* flexbox layout */
+    justify-content: center; /* centrer indholdet */
+    align-items: center; /* centrer indholdet  */
+    gap: 20px; /* mellemrum mellem billeder */
+    margin: 50px 0; /* margin top og bund */
 }
+
+/* styling til billede af mig */
 .large-logo {
-    width: 47%;
-    height: auto;
+    width: 47%; /* bredde */
+    height: auto; /* automatisk højde for at bevare proportionerne*/
 }
 
+/* styling til afsnit i om mig sektion */
 .paragraphommig {
-        margin-right: 30px;
-        margin-left: 30px;
-        font-size: 15px;
-        font-weight: lighter;
-        text-align: center;
-        color: #000;
+        margin-right: 30px; /* højre margin størrelse */
+        margin-left: 30px; /* venstre margin størrelse */
+        font-size: 15px; /* skriftstørrelse */
+        font-weight: lighter; /* let skriftvægt */
+        text-align: center; /* centrerer teksten */
+        color: #000; /* skriftfarve */
     }
 
+/* styling til boks3 i om mig sektionen */
 .box3 {
-    background-color: #E5BDFD;
-    width: 100%;
-    margin:0;
-    padding: 20px 0px 80px 0px;
-    position: relative;
+    background-color: #E5BDFD; /* baggrundsfarve */
+    width: 100%; /* bredde */
+    margin:0; /* fjernet margin */
+    padding: 20px 0px 80px 0px; /* indvendig margin */
+    position: relative; /* positionering */
     }
 
-
+/* styling til footer container */
 .footer-container {
-    display: flex;
-    justify-content: center;
-    background-color: #FAF0FD;
-    padding: 20px;
+    display: flex; /* flexbox layout */
+    justify-content: center; /* centrer indholdet */
+    background-color: #FAF0FD; /* baggrundsfarve */
+    padding: 20px; /* indvendig margin */
 }
-.footer-section {
-    flex: 1;
-    text-align: center;
-    padding: 10px;
+
+/* styling til footer sektion */
+.footer-section { 
+    flex: 1; /* fleksibilitet */
+    text-align: center; /* centrer teksten */
+    padding: 10px; /* indvendig margin */
 }
+
+/* styling til overskrifter i footer sektion */
 .footer-section h2 {
-    font-size: 20px;
+    font-size: 20px; /* skriftstørrelse */
 }
+
+/* styling til afsnit i footer sektion */
 .footer-section p {
-    font-size: 16px;
-    margin: 15px;
+    font-size: 16px; /* skriftstørrelse */
+    margin: 15px; /* margin (den ydre afstand omkring et element*/
 }
 
 /* Portefølje css */
 
+/* styling til header */
 header {
-    background-color: #FAF0FD;
-    padding: 26px;
+    background-color: #FAF0FD; /* baggrundsfarve */
+    padding: 26px; /* indvendig margin (indvendig afstand mellem et element) */
 }
 
+/* styling af navigation */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* flexbox layout */
+    justify-content: space-between; /* plads mellem elementerne */
+    align-items: center; /* centrer elementer */
 }
 
-
+/* styling af logo */
 .logo {
-    height: 70px;
+    height: 70px; /* højde på logo */
 }
 
-.box1{
-    text-align: center;
-    background-color: #E5BDFD;
-    width: 100%;
-    margin:0;
+/* styling til box1 overskrift om mig */
+.box1{ 
+    text-align: center; /* centrer teksten */
+    background-color: #E5BDFD; /* baggrundsfarve */
+    width: 100%; /* bredde */
+    margin:0; /* fjernet margin */
 }
 
-/* hvordan min images container ser ud  */
+/* styling af image container */
 .image-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    margin: 50px auto;
-    width: 100%;
+    display: flex; /* flexbox layout */
+    justify-content: space-around; /* plads imellem elementerne */
+    align-items: center; /* centrer elementer */
+    flex-direction: column; /* arranger elementer i en kolonne */
+    gap: 20px; /* mellemrum mellem billeder */
+    margin: 50px auto; /* margin top og bund */
+    width: 100%; /* bredde */
 }
 
-/* <hvordan images skal se ud i conataineren> */
+/* styling af images i image container */
 .image-container img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%;/* maksimal bredde */
+    height: auto; /* automatisk højde for at bevare proportioner */
 }
 
