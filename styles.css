@@ -230,7 +230,7 @@ nav {
     flex-direction: column; /* arranger elementer i en kolonne */
     gap: 20px; /* mellemrum mellem billeder */
     margin: 50px auto; /* margin top og bund */
-    width: 100%; /* bredde */
+    width: 50%; /* bredde */
 }
 
 /* styling af images i image container */
@@ -239,12 +239,17 @@ nav {
     height:auto /* automatisk højde for at bevare proportioner */
 }
 
+.streg {
+    width: 60%;
+    margin-left: 80px;
+}
 
 .footer-container {
     display: flex;
     justify-content: center;
     background-color: #FAF0FD;
     padding: 20px;
+    width: auto;
 }
 
 .footer-section {
