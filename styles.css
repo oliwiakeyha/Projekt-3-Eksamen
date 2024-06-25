@@ -4,6 +4,7 @@ html {
 }
 
 /* styling for body */
+
 body {
     background-color: #FEFCFF; /* baggrundsfarve */
     margin: 0; /* fjernet margin for at fjerne ekstra plads omkring indholdet*/
@@ -24,7 +25,7 @@ body {
 
 /* styling til overskriften i tubelight-text */
 .tubelight-text h2 {
-    font-size: 14px; /* skriftstørrelse */
+    font-size: 100px; /* skriftstørrelse */
     letter-spacing: 15px; /* mellemrum mellem bogstaverne */
     color: #222; /* skriftfarve */
     text-transform: uppercase; /* transformere teksten til store bogstaver */
@@ -32,7 +33,7 @@ body {
     text-align: center; /* centrer teksten */
     -webkit-box-reflect: below 1px linear-gradient(transparent, #2222); /* reflektions effekt */
     outline: none; /* fjernet outline */
-    line-height: 35px; /* linje højde */
+    line-height: 100px; /* linje højde */ 
     animation: animate 5s linear infinite; /* animations element ved hjælp af keyframes der varierer i 5 sekunder, lineær timing og gentages uendeligt*/
 }
 
@@ -134,7 +135,7 @@ p {
 
 /* styling til billede af mig */
 .large-logo {
-    width: 47%; /* bredde */
+    width: 100%; /* bredde */
     height: auto; /* automatisk højde for at bevare proportionerne*/
 }
 
@@ -153,7 +154,7 @@ p {
     background-color: #E5BDFD; /* baggrundsfarve */
     width: 100%; /* bredde */
     margin:0; /* fjernet margin */
-    padding: 20px 0px 80px 0px; /* indvendig margin */
+    padding: 20px 0px 30px 0px; /* indvendig margin */
     position: relative; /* positionering */
     }
 
@@ -208,6 +209,7 @@ nav {
     align-items: center; /* centrer elementer */
 }
 
+
 /* styling af logo */
 .logo {
     height: 70px; /* højde på logo */
@@ -241,7 +243,7 @@ nav {
 
 .streg {
     width: 60%;
-    margin-left: 80px;
+    margin-left: 370px;
 }
 
 .footer-container {
@@ -266,3 +268,4 @@ nav {
     font-size: 16px;
     margin: 5px 0;
 }
+
